@@ -24,6 +24,7 @@ chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
 # Chrome WebDriver 경로 설정 및 크기 설정
+# GOODVIBE WORKS 로 이동시 브라우저 크기가 작게 열리고 무료체험신청 버튼이 하단에 떴을 때 해당 버튼이 클릭되면 신청서 입력 화면이 과제 수행내용과 다른게 표출된다.(2023.09.07 기준)
 chrome_options.add_argument("executable_path=/usr/bin/chromedriver")
 chrome_options.add_argument("--window-size=1920,1080") 
 
